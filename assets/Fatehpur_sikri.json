@@ -1,0 +1,88 @@
+[
+    {
+        "1": "In which state is Fatehpur sikhri Located?",
+        "2": "Who built/founded fatehpur sikri?",
+        "3": "When was fatehpur sikri started ?",
+        "4": "Fatehpur Sikri is called as",
+        "5": "Early name of fatehpur sikri",
+        "6": "Ibadat Khana at fatehpur sikri built by",
+        "7": "The city was built massively and preferably with",
+        "8": "Which of the following buildings belongs to this city?",
+        "9": "The fatehpur sikri architecture was designed by",
+        "0": "The city architecture is based on"
+    },
+    {
+        "1": {
+            "a": "Andhra Pradesh",
+            "b": "Madhya Pradesh",
+            "c": "Arunachal Pradesh",
+            "d": "Uttar Pradesh"
+        },
+        "2": {
+            "a": "Babur",
+            "b": "Akbar",
+            "c": "Aurangazeb",
+            "d": "Shah Jahan"
+        },
+        "3": {
+            "a": "1571",
+            "b": "1681",
+            "c": "1458",
+            "d": "1887"
+        },
+        "4": {
+            "a": "City of destiny",
+            "b": "City of Royality",
+            "c": "City of Victory",
+            "d": "City of divinity"
+        },
+        "5": {
+            "a": "City of Sikri",
+            "b": "City of mughal",
+            "c": "Akbar pur",
+            "d": "Mughal city"
+        },
+        "6": {
+            "a": "Humayun",
+            "b": "Akbar",
+            "c": "Birbal",
+            "d": "Aurangazeb"
+        },
+        "7": {
+            "a": "White marble",
+            "b": "Red sand stone",
+            "c": "Granite",
+            "d": "None"
+        },
+        "8": {
+            "a": "Jama Masjid",
+            "b": "Buland Darwaza",
+            "c": "Diwan-i-Aam",
+            "d": "All the above"
+        },
+        "9": {
+            "a": "Tuhir Das",
+            "b": "Manwantri",
+            "c": "Dhruv Chawla",
+            "d": "Both A and C"
+        },
+        "0": {
+            "a": "Mughal",
+            "b": "Mughal",
+            "c": "Jain",
+            "d": "All the above"
+        }
+    },
+    {
+        "1": "Uttar Pradesh",
+        "2": "Akbar",
+        "3": "1571",
+        "4": "City of Victory",
+        "5": "City of Sikri",
+        "6": "Akbar",
+        "7": "Red sand stone",
+        "8": "All the above",
+        "9": "Both A and C",
+        "0": "All the above"
+    }
+]
