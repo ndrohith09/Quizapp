@@ -1,8 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.flutterquizstarv2">
    <application
-        android:label="flutterquizstarv2"
-        android:icon="@mipmap/ic_launcher">
+        android:label="Treasure Hunt"
+        android:icon="@mipmap/ic_launcher"> 
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
