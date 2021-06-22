@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutterquizstarv2/explorepage.dart';
 import 'package:flutterquizstarv2/quizpage.dart';
+import 'package:flutterquizstarv2/videopage.dart';
 
 class homepage extends StatefulWidget {
   @override
@@ -17,6 +18,7 @@ class _homepageState extends State<homepage> {
     "assets/images/India-gate.jpg",
     "assets/images/Mysore_palace.jpg",
     "assets/images/Nalanda_university.jpeg",
+    // "assets/images/Nalanda_university.jpeg",
     // "images/java.png",
     // "images/js.png",
     // "images/cpp.png",
@@ -112,26 +114,50 @@ class _homepageState extends State<homepage> {
             ),
           ),
           Positioned(
-            left: -15,
+            left: 70,
             right: -15,
-            top: 220,
+            top: 190,
             bottom: -80,
-            child: Container(
-              // alignment: Alignment.,
-              child: IconButton(
-                onPressed: () {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => GetDetails(langname),
+            child: Row(
+              children: [
+                Container(
+                  // alignment: Alignment.,
+                  child: IconButton(
+                    onPressed: () {
+                      Navigator.of(context).push(
+                        MaterialPageRoute(
+                          builder: (context) => GetDetails(langname),
+                        ),
+                      );
+                    },
+                    icon: Icon(
+                      Icons.explore_rounded,
+                      size: 80,
+                      color: Colors.white,
                     ),
-                  );
-                },
-                icon: Icon(
-                  Icons.explore_rounded,
-                  size: 80,
-                  color: Colors.white,
+                  ),
                 ),
-              ),
+                SizedBox(
+                  width: 70,
+                ),
+                Container(
+                  // alignment: Alignment.,
+                  child: IconButton(
+                    onPressed: () {
+                      Navigator.of(context).push(
+                        MaterialPageRoute(
+                          builder: (context) => VideoPage(langname),
+                        ),
+                      );
+                    },
+                    icon: Icon(
+                      Icons.video_collection_rounded,
+                      size: 80,
+                      color: Colors.white,
+                    ),
+                  ),
+                ),
+              ],
             ),
           ),
         ],
@@ -196,6 +222,7 @@ class _homepageState extends State<homepage> {
           customcard("India Gate", images[3]),
           customcard("Mysore Palace", images[4]),
           customcard("Nalanda University", images[5]),
+          // customcard("Nalanda University", images[5]),
         ],
       ),
     );
