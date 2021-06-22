@@ -18,9 +18,11 @@ class _VideoPageState extends State<VideoPage> {
   @override
   void initState() {
     if (widget.langname == "Ajanta Ellora") {
-      assettoload = "http//sampleurl.mp4";
+      assettoload =
+          "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4";
     } else if (widget.langname == "Fatehpur Sikri") {
-      assettoload = "assets/videos/fatehpursikri.mp4";
+      assettoload =
+          "https://flutter.github.io/assets-for-api-docs/assets/videos/butterfly.mp4";
     } else if (widget.langname == "Humayuns Tomb") {
       assettoload = "assets/videos/humayunstomb.mp4";
     } else if (widget.langname == "India Gate") {
