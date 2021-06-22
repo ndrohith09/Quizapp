@@ -1,4 +1,4 @@
-# flutterquizstarv2
+# Treasure Hunt
 
 A new Flutter project.
 
